@@ -1,10 +1,10 @@
-# Sistem de Administrare a Conținutului (CMS)
+# InkPress Sistem de Administrare a Conținutului (CMS)
 
 Aplicație web pentru administrarea conținutului (CMS), dezvoltată cu Laravel (PHP) și PostgreSQL, în cadrul modulului S.07.O.022 Asistență pentru programarea server-side a site-urilor Web.
 
 ## Descriere
 
-InkBase permite publicarea și administrarea articolelor pe un site web, cu suport pentru categorii, comentarii, autentificare utilizatori și panou de administrare separat de partea publică a site-ului.
+InkPress permite publicarea și administrarea articolelor pe un site web, cu suport pentru categorii, comentarii, autentificare utilizatori și panou de administrare separat de partea publică a site-ului.
 
 ## Tehnologii utilizate
 
@@ -40,8 +40,8 @@ Această etapă corespunde primei unități de învățare din curriculum: Limba
 
 3. Crearea proiectului Laravel
    ``` 
-   composer create-project laravel/laravel inkbase
-   cd inkbase
+   composer create-project laravel/laravel inkpress
+   cd inkpress
    ```
 
 4. Configurarea fișierului de mediu
@@ -55,7 +55,7 @@ Această etapă corespunde primei unități de învățare din curriculum: Limba
    DB_CONNECTION=pgsql
    DB_HOST=127.0.0.1
    DB_PORT=5432
-   DB_DATABASE=inkbase
+   DB_DATABASE=inkpress
    DB_USERNAME=postgres
    DB_PASSWORD=parola_ta
    ```
@@ -63,7 +63,7 @@ Această etapă corespunde primei unități de învățare din curriculum: Limba
 6. Crearea bazei de date PostgreSQL
    ``` 
    psql -U postgres
-   CREATE DATABASE inkbase;
+   CREATE DATABASE inkpress;
    ```
 
 7. Pornirea serverului local Laravel
